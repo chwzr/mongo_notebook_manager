@@ -8,7 +8,7 @@ import datetime
 
 import pymongo
 
-from mongodb_proxy import MongoProxy
+#from mongodb_proxy import MongoProxy
 
 from IPython.html.services.contents.filemanager import FileContentsManager
 from IPython.nbformat import current
