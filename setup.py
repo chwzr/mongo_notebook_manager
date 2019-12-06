@@ -30,7 +30,7 @@ setup(
     ],
     install_requires=[
         'pymongo',
-        'ipython<3'
+        'ipython'
     ],
     entry_points={
         'console_scripts': [
