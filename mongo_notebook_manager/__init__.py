@@ -8,10 +8,10 @@ import datetime
 
 import pymongo
 
-try:
-    from mongodb_proxy import MongoProxy
-except:
-    from .mongodb_proxy import MongoProxy
+#try:
+#    from mongodb_proxy import MongoProxy
+#except:
+#    from .mongodb_proxy import MongoProxy
 
 from IPython.html.services.notebooks.nbmanager import NotebookManager
 from IPython.nbformat import current
